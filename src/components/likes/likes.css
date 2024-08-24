@@ -1,0 +1,27 @@
+.like-movie-container {
+  display: flex;
+  gap: 0.5rem;
+  background: #e5d5d5;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 10px;
+  }
+}
+
+.liked-btn {
+    background-color: rgb(96, 96, 96);
+}
+
+.disliked-btn {
+    background-color: rgb(96, 96, 96);
+}
+
+.material-symbols-outlined {
+    font-size: 14px;
+}

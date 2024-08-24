@@ -1,0 +1,47 @@
+.all-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.multi-select-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-pagination {
+  gap: 1px;
+
+  button {
+    width: 10vw;
+    margin: 0rem 1rem;
+  }
+}
+
+.multi-select-page {
+  margin: 1rem 0rem;
+}
+
+@media (max-width: 900px) {
+  .all-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-pagination {
+    button {
+      width: 27vw;
+    }
+  }
+}

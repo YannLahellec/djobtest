@@ -1,0 +1,69 @@
+.movie-card-container {
+  background-color: rgb(24, 24, 24);
+  width: 30vw;
+  /* height: 32vh; */
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  transition: transform .1s;
+  box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.45);
+
+  img {
+    height: 205px;
+    border-radius: 5px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}
+
+.movie-card-container:hover {
+    transform: scale(1.1);
+}
+
+.movie-all-container {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  width: 100%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+  color: white;
+}
+
+.delete-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    padding: 1px 4px;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .movie-all-container {
+    flex-direction: column;
+  }
+
+  .movie-card-container {
+    width: 59vw;
+    height: 45vh;
+    align-items: flex-start;
+  }
+
+  .info-container {
+    height: 10vh;
+  }
+}
